@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Thailand | Home</title>
+    <meta name="description" content="Explore Thailand's vibrant culture, stunning landscapes, and mouthwatering cuisine for an unforgettable tourism experience.">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -20,11 +24,9 @@
 <body>
     <header class="site-header">
         <nav class="site-navigation">
-        <a href="#home" class="site-name">
-            <img src="images/.png" alt="">
-        </a>
+        <a href="index.html" class="site-name">Home</a>
 
-            <ul class="nav-menu" id="header-menu">
+            <ul class="nav-menu">
                 <li><a href="explore.html">Explore</a></li>
                 <li><a href="cuisine.html">Cuisine</a></li>
                 <li><a href="credits.html">Credits</a></li>
@@ -34,23 +36,40 @@
         <section class="site-cover">
             <video class="home-video" src="images/bangkok.webm" muted="" autoplay="" loop="" playsinline=""></video>
             <h1>Thailand</h1>
-            <p>The beautiful.</p>
+            <p>Home to the City of Angels</p>
         </section>
     </header>
 
     <main class="site-main">
         <section id="section-about">
-            <h2>About Thailand</h2>
+            <h2>Thailand</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem sint sequi impedit, provident accusantium omnis fuga nihil, ex explicabo architecto necessitatibus quisquam nam magni quasi nemo illo ut doloribus? Alias architecto beatae veniam sequi, nostrum dolorem totam at assumenda rem earum amet, recusandae dolores autem quo eius quibusdam laudantium illo? </p>
         </section>
 
-        <section id="section-gallery">
-            <a href="explore.html">Citiesb</a>
-            <a href="cuisine.html">Cuisine</a>
-            <a href="credits.html">Credits</a>
+        <section id="section-gallery" class="gallery-section">
+            <ul class="gallery-links">
+                <li>
+                    <a href="explore.html">
+                        <img src="images/explore.jpg" alt="Explore">
+                        <span>Explore</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="cuisine.html">
+                        <img src="images/cuisine.jpg" alt="Cuisine">
+                        <span>Cuisine</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="credits.html">
+                        <img src="images/credits.jpg" alt="Credits">
+                        <span>Credits</span>
+                    </a>
+                </li>
+            </ul>
         </section>
-
-    
+        
+        
 
         <section class="icon-arrow">
             <a href="#home">
@@ -63,6 +82,7 @@
 
     <footer>
         <p>&copy; Stanley Wong 2024</p>
+        <p>For Educational Purposes</p>
     </footer>
 </body>
 </html>
