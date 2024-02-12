@@ -203,11 +203,19 @@ body {
     border: 1px solid #ddd;
 }
 
-.cuisine-table th {
-    background-color: #f2f2f2;
+.cuisine-table img {
+    max-width: 100%;
+    max-height: 200px; 
 }
 
-/* Styles for Contact Form */
+.cuisine-table th {
+    background-color: #8a8974;
+}
+
+/* Styles for Credits page */
+.credit-content {
+    margin-left: 5em;
+}
 .contact-form {
     max-width: 400px;
     margin: 0 auto;
